@@ -2,12 +2,12 @@ import axios from "axios";
 
 export default {
 
-  saveArticle: function (articleData) {
-    return axios.post("/api/saved", articleData)
+  getArticle: function () {
+    return axios.get("/api/saved");
   },
 
-  getSavedArticles: function () {
-    return axios.get("/api/saved");
+  saveArticle: function (articledata) {
+    return axios.post("/api/saved", articledata);
   },
 };
 
