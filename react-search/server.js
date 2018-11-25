@@ -105,8 +105,6 @@ app.get("/articles/:id", function (req, res) {
 
   });
 
-
-
 });
 
 
