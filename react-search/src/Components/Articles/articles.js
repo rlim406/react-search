@@ -21,7 +21,7 @@ class Main extends Component {
       <Results
         _id={article._id}
         title={article.headline.main}
-        url={article.web_url}
+        url={article.link}
       />
     ));
 
