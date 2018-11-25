@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Saved from "./Saved";
-import Search from "./Search";
+import Home from "./Home";
 
 
 
@@ -12,7 +12,7 @@ class App extends Component {
 
       <Router>
         <div>
-          <Route exact path="/App extends Component{" component={Search} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/saved" component={Saved} />
         </div>
       </Router>
